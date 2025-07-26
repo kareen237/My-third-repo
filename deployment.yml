@@ -12,7 +12,8 @@ spec:
       labels:
         app: devops-app  # Label to identify pods
     spec:
-      containers:bamendagirl        - name:  # Name of the container
+      containers:        
+        - name: bamendagirl # Name of the container
           image: 891377331437.dkr.ecr.us-east-1.amazonaws.com/bamendagirl:cf752a2da6cdf0599b6ef87a41831e3ace7671c1          
           ports:
             - containerPort: 80  # Exposing port
